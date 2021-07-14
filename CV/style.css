@@ -1,0 +1,141 @@
+body {
+  padding: 0;
+  background-image: linear-gradient(90deg, #ffcffe 50%, #bee5e5 50%);
+  font-family: "Anton", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+}
+.header {
+  height: 100px;
+  background: #262626;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+}
+.head_mid {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+.nav_bar {
+  display: flex;
+  justify-content: flex-end;
+}
+.CV_left {
+  float: left;
+  width: 50%;
+}
+.name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 50px;
+  color: #f0f0f0;
+}
+.nav_bar {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 50px;
+  color: #f0f0f0;
+}
+.CV_right {
+  float: right;
+
+  width: 50%;
+}
+
+.CV_Middle {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+.Profile_pic {
+  width: 200px;
+  height: 200px;
+
+  object-fit: cover;
+  border-radius: 100px;
+  margin-right: 10px;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+  transition: transform 0.5s ease-in-out;
+}
+.Profile_pic:hover {
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.5));
+  transform: rotate(360deg);
+}
+.exp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.exp {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 60px;
+}
+
+.exp_cont {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 45px;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills_cont {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.skills {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 60px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_cont {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.about {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 60px;
+}
+.edu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.edu {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 60px;
+}
+.edu_cont {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 45px;
+}
