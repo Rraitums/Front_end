@@ -74,15 +74,15 @@ body {
 .exp {
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
-  line-height: 40px;
+  font-size: 30px;
+  line-height: 20px;
 }
 
 .exp_cont {
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 15px;
 }
 .skills {
   display: flex;
@@ -92,15 +92,14 @@ body {
 .skills_cont {
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 20px;
 }
 
 .skills {
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
-  line-height: 40px;
+  font-size: 30px;
+  line-height: 20px;
 }
 
 .about {
@@ -112,15 +111,15 @@ body {
 .about_cont {
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 15px;
 }
 
 .about {
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
-  line-height: 40px;
+  font-size: 30px;
+  line-height: 20px;
 }
 .edu {
   display: flex;
@@ -130,12 +129,12 @@ body {
 .edu {
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
-  line-height: 40px;
+  font-size: 30px;
+  line-height: 15px;
 }
 .edu_cont {
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 15px;
 }
